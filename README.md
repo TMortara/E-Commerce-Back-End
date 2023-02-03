@@ -1,6 +1,7 @@
 # E-Commerce-Back-End
 
 ## Description
+Back end e-commerce application that allows a company to manage their product inventory.
 
 ## Table of Contents
 - [Installation Steps](#installation-steps)
@@ -26,7 +27,20 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
 ## Usage
 1. Before beginning make sure you have completed the [Installation Steps](#installation-steps)
 2. Open integrated terminal in VS Code
-3. 
+3. Sign into your MySQL database by running `mysql -u root -p` then enter your password
+4. From the Command Line run `SOURCE db/schema.sql;` 
+5. Next run `USE ecommerce_db;`
+6. Next you will need to seed your database.  Exit MySQL and run `node seeds/index.js`
+7. Once you database is seeded you can run `node server.js` to start your server.
+8. Open Insomnia
+9. From the Insomnia Dashboard select `Debug`
+10. Select `GET` from the dropdown and enter the `http://localhost:3001/api/` URL
+11. Make the following `GET` requests:
+    1. 
+12. Make the following `POST` requests: 
+13. Make the following `PUT` requests: 
+14. Make the following `DELETE` requests
+ 
 
 ## File Structure
 The directory for this application is as follows:
