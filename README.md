@@ -7,7 +7,6 @@
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Built With](#built-with)
-- [Credits](#credits)
 - [Resources Used to Complete Project](#resources-used-to-complete-project)
 - [License](#license)
 - [Recording](#recording)
@@ -16,11 +15,13 @@
 ## Installation Steps
 Before using this application you must [install Node.js](https://nodejs.org/en/).
 
-After installing Node.js, open the integrated terminal in VS Code and run <mark>npm install</mark>.  This will install all of the dependencies listed in the package.json file. 
+After installing Node.js, open the integrated terminal in VS Code and run `npm install`.  This will install all of the dependencies listed in the package.json file. 
 
 <u>Installation Resources</u>:
-- [Install Inquirer](https://www.npmjs.com/package/inquirer#installation)
-- [Install Jest](https://jestjs.io/docs/getting-started)
+- [Install Express.js](https://expressjs.com/en/starter/installing.html)
+- [Install Sequelize](https://sequelize.org/docs/v6/getting-started/)
+- [Install Insomnia](https://docs.insomnia.rest/insomnia/install)
+
 
 ## Usage
 1. Before beginning make sure you have completed the [Installation Steps](#installation-steps)
@@ -29,31 +30,25 @@ After installing Node.js, open the integrated terminal in VS Code and run <mark>
 
 ## File Structure
 The directory for this application is as follows:
+- 
 
 ## Built With:
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
 
-## Credits
-- My Tutor, Alex Gonzales, for teaching me more about Classes and SubClasses.
-
-### Resources Used to Complete Project
-- [Inquirer documentation](https://www.npmjs.com/package/inquirer#documentation)
-- [Node.js file system documentation](https://nodejs.dev/en/api/v19/fs/)
-- [Node.js prompt documentation](https://nodejs.org/en/knowledge/command-line/how-to-prompt-for-command-line-input/)
+## Resources Used to Complete Project
+### Sequelize Documentation
+ - [Model Querying Basics](https://sequelize.org/docs/v6/core-concepts/model-querying-basics/)
+ - [Sub Queries](https://sequelize.org/docs/v7/core-concepts/validations-and-constraints/#note-about-allownull-implementation)
+ - [Advanced M:N Associations](https://sequelize.org/docs/v6/advanced-association-concepts/advanced-many-to-many/#through-tables-versus-normal-tables-and-the-super-many-to-many-association)
+ - [Associations](https://sequelize.org/docs/v6/core-concepts/assocs/)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-<img width="282" alt="Screen Shot 2023-01-10 at 4 13 06 PM" src="https://user-images.githubusercontent.com/107971753/211673834-d850f08f-59c0-4b43-a85c-92a5529fd18d.png">
 
 ## Recording
 
 ## Screenshots of Application
 
-### Prompts
-
-
-### Application 
 
 
 
