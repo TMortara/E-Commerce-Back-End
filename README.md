@@ -34,17 +34,80 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
 7. Once you database is seeded you can run `node server.js` to start your server.
 8. Open Insomnia
 9. From the Insomnia Dashboard select `Debug`
-10. Select `GET` from the dropdown and enter the `http://localhost:3001/api/` URL
-11. Make the following `GET` requests:
-    1. 
-12. Make the following `POST` requests: 
-13. Make the following `PUT` requests: 
-14. Make the following `DELETE` requests
- 
+10. Select `GET` from the dropdown and enter the `http://localhost:3001/api` URL
+11. Add the following endpoints to make the `GET` requests:
+    1. Product: 
+        - endpoints:
+            1. `/products`
+            2. `/products/:id`
+    2. Category: 
+        - endpoints:
+            1. `/categories`
+            2. `/categories/:id`
+    3. Tab: 
+        - endpoints: 
+            1. `/tags`
+            2. `/tags/:id`
+11. Select 'POST' from the dropdown and enter the `http://localhost:3001/api` URL
+12. Add the following information to make the `POST` requests: 
+    1. Product: 
+        - endpoint: `/products`
+        - request body: 
+          {
+            "product_name": "Flannel Shirts",
+            "price": 40.00,
+            "stock": 2,
+            "tagIds": [1, 4]
+          }
+    2. Category: 
+        - endpoint: `/categories`
+        - request body: 
+        {
+            "category_name": "hiking gear"
+        }
+    3. Tab: 
+        - endpoint: `/tags`
+        - request body: 
+        {
+            "tag_name": magenta
+        }
+13. Select `PUT` from the dropdown and enter the `http://localhost:3001/api` URL
+14. Add the following endpoints to make the `PUT` requests: 
+    1. Product: 
+        - endpoint: `/products/:id`
+        - request body: 
+          {
+            "product_name": "Flannel Shirts",
+            "price": 48.00,
+          }
+    2. Category: 
+        - endpoint: `/categories/:id`
+        - request body: 
+        {
+            "category_name": "hiking shoes"
+        }
+    3. Tab: 
+        - endpoint: `/tags/:id`
+        - request body: 
+        {
+            "tag_name": teal
+        }
+15. Select `DELETE` from the dropdown and enter the `http://localhost:3001/api` URL
+16. Add the following endpoints to make the `DELETE` requests
+    1. Product: 
+        - endpoint: `/products/:id`
+    2. Category: 
+        - endpoint: `/categories/:id`
+    3. Tab: 
+        - endpoint: `/tags/:id`
 
 ## File Structure
 The directory for this application is as follows:
-- 
+- /config: configuration file for database
+- /db: database schema
+- /models: contains the Category, Product, and Tags models
+- /routes: route files for Category, Product, and Tags
+- /seeds: seed data for the database
 
 ## Built With:
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
@@ -61,7 +124,11 @@ The directory for this application is as follows:
 
 ## Recording
 
-## Screenshots of Application
+### GET Requests
+
+### POST and PUT Requests
+
+### DELETE Requests
 
 
 
