@@ -22,7 +22,6 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
 - [Install Sequelize](https://sequelize.org/docs/v6/getting-started/)
 - [Install Insomnia](https://docs.insomnia.rest/insomnia/install)
 
-
 ## Usage
 1. Before beginning make sure you have completed the [Installation Steps](#installation-steps)
 2. Open integrated terminal in VS Code
@@ -126,7 +125,7 @@ The directory for this application is as follows:
 ## Recording
 
 ### GET Requests
-https://watch.screencastify.com/v/UmIXsgQM9vKBMT1Xi8Xj
+https://user-images.githubusercontent.com/107971753/216745514-9fdf6983-cb15-453a-a68b-89c474d39a00.mp4
 
 ### POST and PUT Requests
 [Untitled_ Feb 3, 2023 8_54 PM.webm](https://user-images.githubusercontent.com/107971753/216745269-27cad631-682f-4d40-930c-3cdafb002be4.webm)
