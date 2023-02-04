@@ -131,7 +131,6 @@ The directory for this application is as follows:
 
 
 ### DELETE Requests
-https://drive.google.com/file/d/1-cR40Sw0VLHsvctOn0AG5AVs_98N7eJs/view
-
+<iframe src="https://drive.google.com/file/d/1-cR40Sw0VLHsvctOn0AG5AVs_98N7eJs/preview" width="640" height="480"></iframe>
 
 
