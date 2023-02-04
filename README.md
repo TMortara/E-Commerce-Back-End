@@ -100,6 +100,8 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
         - endpoint: `/categories/:id`
     3. Tab: 
         - endpoint: `/tags/:id`
+17. Exit Insomnia
+18. Close server with command `^C`
 
 ## File Structure
 The directory for this application is as follows:
