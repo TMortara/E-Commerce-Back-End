@@ -126,11 +126,12 @@ The directory for this application is as follows:
 ## Recording
 
 ### GET Requests
+https://watch.screencastify.com/v/UmIXsgQM9vKBMT1Xi8Xj
 
 ### POST and PUT Requests
-
+[Untitled_ Feb 3, 2023 8_54 PM.webm](https://user-images.githubusercontent.com/107971753/216745269-27cad631-682f-4d40-930c-3cdafb002be4.webm)
 
 ### DELETE Requests
-<iframe src="https://drive.google.com/file/d/1-cR40Sw0VLHsvctOn0AG5AVs_98N7eJs/preview" width="640" height="480"></iframe>
+[Untitled_ Feb 3, 2023 9_02 PM.webm](https://user-images.githubusercontent.com/107971753/216744733-d258bc48-e284-43a2-bde9-bedce6d9074a.webm)
 
 
