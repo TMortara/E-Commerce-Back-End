@@ -32,7 +32,7 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
 7. Once you database is seeded you can run `node server.js` to start your server.
 8. Open Insomnia
 9. From the Insomnia Dashboard select `Debug`
-10. Select `GET` from the dropdown and enter the `http://localhost:3001/api` URL
+10. Select `GET` from the dropdown to get data from the database and enter the `http://localhost:3001/api` URL
 11. Add the following endpoints to make the `GET` requests:
     1. Product: 
         - endpoints:
@@ -46,7 +46,13 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
         - endpoints: 
             1. `/tags`
             2. `/tags/:id`
-11. Select 'POST' from the dropdown and enter the `http://localhost:3001/api` URL
+
+Sample `GET` requests
+<img width="1437" alt="Screen Shot 2023-02-03 at 9 34 28 PM" src="https://user-images.githubusercontent.com/107971753/216746136-5f17aaf0-1957-4203-8ba9-0167a20419c5.png">
+
+<img width="1436" alt="Screen Shot 2023-02-03 at 9 34 48 PM" src="https://user-images.githubusercontent.com/107971753/216746145-af97b8f9-9155-4ea0-ba81-d138e2e1b366.png">
+
+11. Select 'POST' from the dropdown to create a new product, category, or tag and enter the `http://localhost:3001/api` URL
 12. Add the following information to make the `POST` requests: 
     1. Product: 
         - endpoint: `/products`
@@ -69,7 +75,11 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
         {
             "tag_name": magenta
         }
-13. Select `PUT` from the dropdown and enter the `http://localhost:3001/api` URL
+        
+Sample `POST` Request
+    <img width="1431" alt="Screen Shot 2023-02-03 at 9 35 58 PM" src="https://user-images.githubusercontent.com/107971753/216746243-2e6b60d9-b01b-4aef-8c02-f60c512a89eb.png">
+
+13. Select `PUT` from the dropdown to update a product, category, or tag and enter the `http://localhost:3001/api` URL
 14. Add the following endpoints to make the `PUT` requests: 
     1. Product: 
         - endpoint: `/products/:id`
@@ -90,7 +100,11 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
         {
             "tag_name": teal
         }
-15. Select `DELETE` from the dropdown and enter the `http://localhost:3001/api` URL
+        
+Sample `PUT` Request
+<img width="1440" alt="Screen Shot 2023-02-03 at 9 36 54 PM" src="https://user-images.githubusercontent.com/107971753/216746265-4e816ee2-29aa-4505-8e32-bc9a77815f24.png">
+
+15. Select `DELETE` from the dropdown to delete a product, category, or tag and enter the `http://localhost:3001/api` URL
 16. Add the following endpoints to make the `DELETE` requests
     1. Product: 
         - endpoint: `/products/:id`
@@ -98,6 +112,10 @@ After installing Node.js, open the integrated terminal in VS Code and run `npm i
         - endpoint: `/categories/:id`
     3. Tab: 
         - endpoint: `/tags/:id`
+
+Sample `DELETE` Request
+<img width="1440" alt="Screen Shot 2023-02-03 at 9 37 38 PM" src="https://user-images.githubusercontent.com/107971753/216746306-e8ee1ab5-5d68-4725-b8b4-a2cab08c8898.png">
+
 17. Exit Insomnia
 18. Close server with command `^C`
 
