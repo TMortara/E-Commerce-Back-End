@@ -11,7 +11,6 @@ Back end e-commerce application that allows a company to manage their product in
 - [Resources Used to Complete Project](#resources-used-to-complete-project)
 - [License](#license)
 - [Recording](#recording)
-- [Screenshots of Application](#screenshots-of-application)
 
 ## Installation Steps
 Before using this application you must [install Node.js](https://nodejs.org/en/).
@@ -130,8 +129,9 @@ The directory for this application is as follows:
 
 ### POST and PUT Requests
 
-### DELETE Requests
 
+### DELETE Requests
+https://drive.google.com/file/d/1-cR40Sw0VLHsvctOn0AG5AVs_98N7eJs/view
 
 
 
