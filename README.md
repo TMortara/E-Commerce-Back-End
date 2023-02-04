@@ -125,7 +125,7 @@ The directory for this application is as follows:
 ## Recording
 
 ### GET Requests
-https://user-images.githubusercontent.com/107971753/216745514-9fdf6983-cb15-453a-a68b-89c474d39a00.mp4
+[Untitled_ Feb 3, 2023 9_27 PM.webm](https://user-images.githubusercontent.com/107971753/216745771-5cab2265-8e84-4533-8c8d-fbc8feaeb899.webm)
 
 ### POST and PUT Requests
 [Untitled_ Feb 3, 2023 8_54 PM.webm](https://user-images.githubusercontent.com/107971753/216745269-27cad631-682f-4d40-930c-3cdafb002be4.webm)
